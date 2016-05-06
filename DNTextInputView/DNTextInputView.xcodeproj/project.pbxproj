@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		516DDFE51CDC36E700BB63EB /* DNTextInput.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 516DDFE41CDC36E700BB63EB /* DNTextInput.bundle */; };
+		516DDFE81CDC422000BB63EB /* Simulator Screen Shot 2016年5月6日 上午11.07.39.png in Resources */ = {isa = PBXBuildFile; fileRef = 516DDFE71CDC422000BB63EB /* Simulator Screen Shot 2016年5月6日 上午11.07.39.png */; };
 		517A57F21CDB2E4100A37991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A57F11CDB2E4100A37991 /* main.m */; };
 		517A57F51CDB2E4100A37991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A57F41CDB2E4100A37991 /* AppDelegate.m */; };
 		517A57F81CDB2E4100A37991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A57F71CDB2E4100A37991 /* ViewController.m */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		516DDFE41CDC36E700BB63EB /* DNTextInput.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DNTextInput.bundle; sourceTree = "<group>"; };
+		516DDFE71CDC422000BB63EB /* Simulator Screen Shot 2016年5月6日 上午11.07.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2016年5月6日 上午11.07.39.png"; sourceTree = "<group>"; };
 		517A57ED1CDB2E4000A37991 /* DNTextInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNTextInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		517A57F11CDB2E4100A37991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		517A57F31CDB2E4100A37991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		517A57F01CDB2E4100A37991 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				516DDFE71CDC422000BB63EB /* Simulator Screen Shot 2016年5月6日 上午11.07.39.png */,
 				517A57F91CDB2E4100A37991 /* Main.storyboard */,
 				517A57FC1CDB2E4100A37991 /* Assets.xcassets */,
 				517A57FE1CDB2E4100A37991 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 				517A58001CDB2E4100A37991 /* LaunchScreen.storyboard in Resources */,
 				516DDFE51CDC36E700BB63EB /* DNTextInput.bundle in Resources */,
 				517A57FD1CDB2E4100A37991 /* Assets.xcassets in Resources */,
+				516DDFE81CDC422000BB63EB /* Simulator Screen Shot 2016年5月6日 上午11.07.39.png in Resources */,
 				517A57FB1CDB2E4100A37991 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
