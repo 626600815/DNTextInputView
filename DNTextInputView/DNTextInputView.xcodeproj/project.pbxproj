@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516DDFE51CDC36E700BB63EB /* DNTextInput.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 516DDFE41CDC36E700BB63EB /* DNTextInput.bundle */; };
+		517A57F21CDB2E4100A37991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A57F11CDB2E4100A37991 /* main.m */; };
+		517A57F51CDB2E4100A37991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A57F41CDB2E4100A37991 /* AppDelegate.m */; };
+		517A57F81CDB2E4100A37991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A57F71CDB2E4100A37991 /* ViewController.m */; };
+		517A57FB1CDB2E4100A37991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A57F91CDB2E4100A37991 /* Main.storyboard */; };
+		517A57FD1CDB2E4100A37991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 517A57FC1CDB2E4100A37991 /* Assets.xcassets */; };
+		517A58001CDB2E4100A37991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 517A57FE1CDB2E4100A37991 /* LaunchScreen.storyboard */; };
+		517A580B1CDB2E4100A37991 /* DNTextInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A580A1CDB2E4100A37991 /* DNTextInputViewTests.m */; };
+		517A58161CDB2E4100A37991 /* DNTextInputViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A58151CDB2E4100A37991 /* DNTextInputViewUITests.m */; };
+		517A58301CDB32C800A37991 /* DNTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A582F1CDB32C800A37991 /* DNTextInputView.m */; };
+		517A58331CDB3FA100A37991 /* UIView+DN.m in Sources */ = {isa = PBXBuildFile; fileRef = 517A58321CDB3FA100A37991 /* UIView+DN.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		517A58071CDB2E4100A37991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517A57E51CDB2E4000A37991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517A57EC1CDB2E4000A37991;
+			remoteInfo = DNTextInputView;
+		};
+		517A58121CDB2E4100A37991 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517A57E51CDB2E4000A37991 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 517A57EC1CDB2E4000A37991;
+			remoteInfo = DNTextInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		516DDFE41CDC36E700BB63EB /* DNTextInput.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DNTextInput.bundle; sourceTree = "<group>"; };
+		517A57ED1CDB2E4000A37991 /* DNTextInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNTextInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		517A57F11CDB2E4100A37991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		517A57F31CDB2E4100A37991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		517A57F41CDB2E4100A37991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		517A57F61CDB2E4100A37991 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		517A57F71CDB2E4100A37991 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		517A57FA1CDB2E4100A37991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		517A57FC1CDB2E4100A37991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		517A57FF1CDB2E4100A37991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		517A58011CDB2E4100A37991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517A58061CDB2E4100A37991 /* DNTextInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNTextInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		517A580A1CDB2E4100A37991 /* DNTextInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNTextInputViewTests.m; sourceTree = "<group>"; };
+		517A580C1CDB2E4100A37991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517A58111CDB2E4100A37991 /* DNTextInputViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DNTextInputViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		517A58151CDB2E4100A37991 /* DNTextInputViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DNTextInputViewUITests.m; sourceTree = "<group>"; };
+		517A58171CDB2E4100A37991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517A582E1CDB32C800A37991 /* DNTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNTextInputView.h; sourceTree = "<group>"; };
+		517A582F1CDB32C800A37991 /* DNTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNTextInputView.m; sourceTree = "<group>"; };
+		517A58311CDB3FA100A37991 /* UIView+DN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DN.h"; sourceTree = "<group>"; };
+		517A58321CDB3FA100A37991 /* UIView+DN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DN.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517A57EA1CDB2E4000A37991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A58031CDB2E4100A37991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A580E1CDB2E4100A37991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516DDFE61CDC37E800BB63EB /* DNTextInputView */ = {
+			isa = PBXGroup;
+			children = (
+				516DDFE41CDC36E700BB63EB /* DNTextInput.bundle */,
+				517A582E1CDB32C800A37991 /* DNTextInputView.h */,
+				517A582F1CDB32C800A37991 /* DNTextInputView.m */,
+				517A58311CDB3FA100A37991 /* UIView+DN.h */,
+				517A58321CDB3FA100A37991 /* UIView+DN.m */,
+			);
+			name = DNTextInputView;
+			sourceTree = "<group>";
+		};
+		517A57E41CDB2E4000A37991 = {
+			isa = PBXGroup;
+			children = (
+				517A57EF1CDB2E4100A37991 /* DNTextInputView */,
+				517A58091CDB2E4100A37991 /* DNTextInputViewTests */,
+				517A58141CDB2E4100A37991 /* DNTextInputViewUITests */,
+				517A57EE1CDB2E4000A37991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		517A57EE1CDB2E4000A37991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517A57ED1CDB2E4000A37991 /* DNTextInputView.app */,
+				517A58061CDB2E4100A37991 /* DNTextInputViewTests.xctest */,
+				517A58111CDB2E4100A37991 /* DNTextInputViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517A57EF1CDB2E4100A37991 /* DNTextInputView */ = {
+			isa = PBXGroup;
+			children = (
+				516DDFE61CDC37E800BB63EB /* DNTextInputView */,
+				517A57F31CDB2E4100A37991 /* AppDelegate.h */,
+				517A57F41CDB2E4100A37991 /* AppDelegate.m */,
+				517A57F61CDB2E4100A37991 /* ViewController.h */,
+				517A57F71CDB2E4100A37991 /* ViewController.m */,
+				517A57F01CDB2E4100A37991 /* Supporting Files */,
+			);
+			path = DNTextInputView;
+			sourceTree = "<group>";
+		};
+		517A57F01CDB2E4100A37991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				517A57F91CDB2E4100A37991 /* Main.storyboard */,
+				517A57FC1CDB2E4100A37991 /* Assets.xcassets */,
+				517A57FE1CDB2E4100A37991 /* LaunchScreen.storyboard */,
+				517A58011CDB2E4100A37991 /* Info.plist */,
+				517A57F11CDB2E4100A37991 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		517A58091CDB2E4100A37991 /* DNTextInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				517A580A1CDB2E4100A37991 /* DNTextInputViewTests.m */,
+				517A580C1CDB2E4100A37991 /* Info.plist */,
+			);
+			path = DNTextInputViewTests;
+			sourceTree = "<group>";
+		};
+		517A58141CDB2E4100A37991 /* DNTextInputViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				517A58151CDB2E4100A37991 /* DNTextInputViewUITests.m */,
+				517A58171CDB2E4100A37991 /* Info.plist */,
+			);
+			path = DNTextInputViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		517A57EC1CDB2E4000A37991 /* DNTextInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517A581A1CDB2E4100A37991 /* Build configuration list for PBXNativeTarget "DNTextInputView" */;
+			buildPhases = (
+				517A57E91CDB2E4000A37991 /* Sources */,
+				517A57EA1CDB2E4000A37991 /* Frameworks */,
+				517A57EB1CDB2E4000A37991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DNTextInputView;
+			productName = DNTextInputView;
+			productReference = 517A57ED1CDB2E4000A37991 /* DNTextInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		517A58051CDB2E4100A37991 /* DNTextInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517A581D1CDB2E4100A37991 /* Build configuration list for PBXNativeTarget "DNTextInputViewTests" */;
+			buildPhases = (
+				517A58021CDB2E4100A37991 /* Sources */,
+				517A58031CDB2E4100A37991 /* Frameworks */,
+				517A58041CDB2E4100A37991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517A58081CDB2E4100A37991 /* PBXTargetDependency */,
+			);
+			name = DNTextInputViewTests;
+			productName = DNTextInputViewTests;
+			productReference = 517A58061CDB2E4100A37991 /* DNTextInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		517A58101CDB2E4100A37991 /* DNTextInputViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517A58201CDB2E4100A37991 /* Build configuration list for PBXNativeTarget "DNTextInputViewUITests" */;
+			buildPhases = (
+				517A580D1CDB2E4100A37991 /* Sources */,
+				517A580E1CDB2E4100A37991 /* Frameworks */,
+				517A580F1CDB2E4100A37991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				517A58131CDB2E4100A37991 /* PBXTargetDependency */,
+			);
+			name = DNTextInputViewUITests;
+			productName = DNTextInputViewUITests;
+			productReference = 517A58111CDB2E4100A37991 /* DNTextInputViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517A57E51CDB2E4000A37991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wjn;
+				TargetAttributes = {
+					517A57EC1CDB2E4000A37991 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					517A58051CDB2E4100A37991 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 517A57EC1CDB2E4000A37991;
+					};
+					517A58101CDB2E4100A37991 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 517A57EC1CDB2E4000A37991;
+					};
+				};
+			};
+			buildConfigurationList = 517A57E81CDB2E4000A37991 /* Build configuration list for PBXProject "DNTextInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 517A57E41CDB2E4000A37991;
+			productRefGroup = 517A57EE1CDB2E4000A37991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				517A57EC1CDB2E4000A37991 /* DNTextInputView */,
+				517A58051CDB2E4100A37991 /* DNTextInputViewTests */,
+				517A58101CDB2E4100A37991 /* DNTextInputViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		517A57EB1CDB2E4000A37991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517A58001CDB2E4100A37991 /* LaunchScreen.storyboard in Resources */,
+				516DDFE51CDC36E700BB63EB /* DNTextInput.bundle in Resources */,
+				517A57FD1CDB2E4100A37991 /* Assets.xcassets in Resources */,
+				517A57FB1CDB2E4100A37991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A58041CDB2E4100A37991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A580F1CDB2E4100A37991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		517A57E91CDB2E4000A37991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517A58301CDB32C800A37991 /* DNTextInputView.m in Sources */,
+				517A57F81CDB2E4100A37991 /* ViewController.m in Sources */,
+				517A57F51CDB2E4100A37991 /* AppDelegate.m in Sources */,
+				517A58331CDB3FA100A37991 /* UIView+DN.m in Sources */,
+				517A57F21CDB2E4100A37991 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A58021CDB2E4100A37991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517A580B1CDB2E4100A37991 /* DNTextInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517A580D1CDB2E4100A37991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				517A58161CDB2E4100A37991 /* DNTextInputViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		517A58081CDB2E4100A37991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517A57EC1CDB2E4000A37991 /* DNTextInputView */;
+			targetProxy = 517A58071CDB2E4100A37991 /* PBXContainerItemProxy */;
+		};
+		517A58131CDB2E4100A37991 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 517A57EC1CDB2E4000A37991 /* DNTextInputView */;
+			targetProxy = 517A58121CDB2E4100A37991 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		517A57F91CDB2E4100A37991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517A57FA1CDB2E4100A37991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		517A57FE1CDB2E4100A37991 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				517A57FF1CDB2E4100A37991 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		517A58181CDB2E4100A37991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		517A58191CDB2E4100A37991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		517A581B1CDB2E4100A37991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DNTextInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNTextInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		517A581C1CDB2E4100A37991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DNTextInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNTextInputView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		517A581E1CDB2E4100A37991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNTextInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNTextInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNTextInputView.app/DNTextInputView";
+			};
+			name = Debug;
+		};
+		517A581F1CDB2E4100A37991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DNTextInputViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNTextInputViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DNTextInputView.app/DNTextInputView";
+			};
+			name = Release;
+		};
+		517A58211CDB2E4100A37991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DNTextInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNTextInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNTextInputView;
+			};
+			name = Debug;
+		};
+		517A58221CDB2E4100A37991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DNTextInputViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.DNTextInputViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DNTextInputView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		517A57E81CDB2E4000A37991 /* Build configuration list for PBXProject "DNTextInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517A58181CDB2E4100A37991 /* Debug */,
+				517A58191CDB2E4100A37991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517A581A1CDB2E4100A37991 /* Build configuration list for PBXNativeTarget "DNTextInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517A581B1CDB2E4100A37991 /* Debug */,
+				517A581C1CDB2E4100A37991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517A581D1CDB2E4100A37991 /* Build configuration list for PBXNativeTarget "DNTextInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517A581E1CDB2E4100A37991 /* Debug */,
+				517A581F1CDB2E4100A37991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517A58201CDB2E4100A37991 /* Build configuration list for PBXNativeTarget "DNTextInputViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				517A58211CDB2E4100A37991 /* Debug */,
+				517A58221CDB2E4100A37991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517A57E51CDB2E4000A37991 /* Project object */;
+}
